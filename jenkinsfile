@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/ai-chatbot.git'
+                echo 'Source code checked out by Jenkins automatically'
             }
         }
 
